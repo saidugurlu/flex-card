@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.genres{
+display: flex;
+flex-wrap: wrap;
+}
+
+.box{
+text-align: center;
+height: 100px;
+flex-basis: 500px;
+flex-grow: 1;
+padding-top: rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.comedy{
+    flex-grow: 6;
+}
+.romance{
+    flex-grow: 3;
+}
